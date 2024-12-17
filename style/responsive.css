@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px) {
+    .price {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .carousel-item {
+        flex: 0 0 33.333%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* hero section */
+    .backgroundImage{
+        background-size: auto !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .hero-title {
+        font-size: 2rem !important;
+    }
+
+    .hero-content {
+        font-size: 0.9rem !important;
+    }
+
+    /* company section */
+
+    .logo-container {
+        min-width: 60px;
+        max-width: 115px;
+    }
+
+    /* feature section */
+
+    .carousel-item {
+        flex: 0 0 50%;
+    }
+
+    /* Accordion Section */
+
+    .benefit-card {
+        height: fit-content !important;
+        min-height: 0 !important;
+    }
+
+    /* Newsletter Section */
+
+    .newsletter-section {
+        min-width: 300px !important;
+    }
+
+    .newsletter-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Newsletter-p {
+        font-size: 0.6rem;
+        margin-bottom: 5px;
+    }
+
+    .newsletter-input {
+        width: 200px !important;
+    }
+}
